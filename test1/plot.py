@@ -49,7 +49,7 @@ def plot_vehicle_trajectory(speeds, angles, timestamp):
     plt.show()
 
 # 讀取CSV檔案
-csv_file = 'data.csv'  # 將 'your_file.csv' 替換為實際的檔案路徑
+csv_file = 'data/data.csv'  # 將 'data/data.csv' 替換為實際的檔案路徑
 data = pd.read_csv(csv_file)
 
 # 從CSV檔案中獲取速度、角度和時間數據
